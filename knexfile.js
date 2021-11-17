@@ -3,7 +3,7 @@ const path = require("path");
 if (process.env.USER || process.env.USERNAME) require("dotenv").config();
 
 const {
-  DATABASE_URL = "postgresql://postgres@https://git.heroku.com/arcane-reef-02884.git/postgres",
+  DATABASE_URL = "postgresql://postgres@localhost/postgres",
 } = process.env;
 
 module.exports = {
